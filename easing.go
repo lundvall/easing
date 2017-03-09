@@ -68,7 +68,6 @@ func EaseInOutQuart(t float64) float64 {
 // Accelerating from zero velocity.
 func EaseInQuint(t float64) float64 {
 	return t * t * t * t * t
-
 }
 
 // Decelerating to zero velocity.
